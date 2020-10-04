@@ -1,0 +1,330 @@
+  
+*{
+    padding: 0cm;
+    margin: 0;
+    font-family: spotify-medium;    
+}  
+
+.blue{
+    background-color: rgb(80, 153, 248);
+    height: 675px;
+    
+    
+}
+.black{
+    background-color: rgb(15, 15, 15);
+}
+    
+header{
+    display: grid;
+    width:1200px;
+    margin: auto;
+    grid-template-columns:650px 550px;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.left-header{
+    display: grid;
+    width: 650px;
+    color: white;
+    grid-template-columns: 60px auto;
+    
+}
+
+.left-header span{
+    font-size: 22px;
+    line-height: 50px;
+
+}
+
+.right-header{
+    display: grid;
+    width: 550px;
+    grid-template-columns: repeat(5, auto);
+    color: white;
+    height: 50px;   
+}
+
+.right-header b{
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.right-header b:hover{
+    font-size: 14px;
+    line-height: 50px;
+    color: black;
+}
+.right-header2{
+    display: grid;
+    width: 550px;
+    grid-template-columns: repeat(5, auto);
+    color: white;
+    height: 50px;   
+}
+
+.right-header2 b{
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.right-header2 b:hover{
+    font-size: 14px;
+    line-height: 50px;
+    color: rgb(35, 223, 35);
+}
+#logo{
+    width: 60px;    
+}
+.ofert{
+    padding-top: 50px;
+    display: grid;
+    width: 1200px;
+    margin: auto;
+    color: white;
+}
+.ofert1{
+    font-size: 80px;
+    font-kerning: normal;
+}
+
+.ofert2{
+    margin-top: 35px;
+    font-size: 22px;
+}
+.ofert3{ 
+    padding-left: 15px;
+    width: 210px;
+
+}
+.ofert3:hover{ 
+    padding-left: 10px;
+    width: 210px;
+}
+.green-square{
+    font-family: spotify-medium;
+    font-size: 13px;
+    background-color: rgb(25, 175, 25);
+    border-radius: 25px;
+    width: 200px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    margin-top: 45px;
+}
+.green-square:hover{
+    position: relative;
+    font-family: spotify-medium;
+    font-size: 14px;
+    background-color: rgb(35, 223, 35);
+    border-radius: 35px;
+    width: 210px;
+    text-align: center;
+    line-height: 55px;
+    height: 55px;
+    margin-top: 42.5px;
+}
+.purple{
+    background-color: rgba(175, 131, 189,0.9);
+    color: white;
+    height: 450px;
+}
+.three-free-months{
+    display: grid;
+    width: 1100px;
+    margin: auto;
+}
+#title-3-free-months{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    font-family: spotify-bold;
+}
+#text1-3-free-months{
+    text-align: center;
+    font-family: spotify-book;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#text2-3-free-months{
+    text-align: center;
+    font-family: spotify-medium;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#get-3-free-months-text{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    height: 55px;
+    border-radius:40px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 15px;
+}
+#get-3-free-months-text:hover{
+    width: 360px;
+    margin: auto;
+    margin-top: 28.75px;
+    background-color: white;
+    color: black;
+    height: 57.5px;
+    border-radius:45px;
+    text-align: center;
+    line-height: 57.5px;
+    font-size: 15.5px;
+}
+
+.white{
+    display: grid;
+    margin-bottom: 100px;
+    
+}
+#caracteristicas{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: spotify-bold;
+    font-size: 47px;
+    margin-top: 65px;
+}
+
+.grid-caracteristicas{
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 300px 300px 300px 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+.foto1{
+ width: 150px;
+ margin: auto;
+}
+.foto2{
+ width: 150px;
+ margin: auto;
+}
+.foto3{
+    width: 150px;
+    margin: auto;
+}
+.foto4{
+    width: 150px;
+    margin: auto;
+}
+.titol-caracteristicas{
+    font-family: spotify-bold;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 40px;
+}
+.text-caracteristicas{
+    font-family: spotify-book;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+.gray{
+    background-color: rgb(231, 229, 229);
+    height: 1000px
+}
+.plans{
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 20px;
+    margin: auto; 
+}
+.plan{
+    display: grid;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 9px 2px rgb(177, 177, 177);
+    
+    background-color: white;
+    border: 0px solid;
+    padding: 15px;
+}
+#elige-tu-premium{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 100px;
+    font-family: spotify-bold;
+    margin-bottom: 75px;
+}
+.oferta{
+    display: inline-block;
+    background-color: rgb(67, 116, 206);
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 4px;
+    justify-self: start;
+    margin-bottom: 23px;
+
+}
+.type{
+    background-color: white;
+    margin-bottom: 10px;
+}
+.price{
+    background-color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: spotify-book;
+
+}
+.sep{
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: white;
+    margin-bottom: 10px;
+    
+}
+.car{
+    display: grid;
+    grid-template-columns: 30px auto;
+    background-color: white;
+    row-gap: 1em;
+    margin-bottom: 100px;
+    font-family: spotify-book;
+
+}
+.nested-grid{
+    background-color: white;
+    font-family: spotify-book;
+    font-size: 16px;
+}
+.emp{
+    background-color: rgb(36, 185, 36);
+    color: white;
+    border-radius: 17px;
+    padding: 10px;
+    text-align: center;
+    line-height: normal;
+    font-size: smaller;
+    margin-bottom: 10px;
+    font-family: spotify-book;
+}
+.emp:hover{
+    background-color: rgb(47, 236, 47) ;
+    color: white;
+    border-radius: 17px;
+    padding: 10px;
+    text-align: center;
+    line-height: normal;
+    font-size: smaller;
+    margin-bottom: 10px;
+    font-family: spotify-book;
+}
+.conditions{
+    background-color: white;
+    font-size: 10px;
+    margin-bottom: 60px;
+    font-family: spotify-book;
+}
+

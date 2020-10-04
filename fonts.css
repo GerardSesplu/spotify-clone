@@ -1,0 +1,12 @@
+@font-face{
+    font-family: spotify-bold;
+    src: url(fonts/spotify-bold.ttf);
+}
+@font-face{
+    font-family: spotify-medium;
+    src: url(fonts/spotify-medium.ttf);
+}
+@font-face{
+    font-family: spotify-book;
+    src: url(fonts/spotify-book.ttf);
+}
