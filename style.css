@@ -299,6 +299,9 @@ header{
     font-family: spotify-book;
     font-size: 16px;
 }
+.nested-grid-tick{
+    width: 20px;
+}
 .emp{
     background-color: rgb(36, 185, 36);
     color: white;
@@ -327,4 +330,46 @@ header{
     margin-bottom: 60px;
     font-family: spotify-book;
 }
+.footer-grid{
+    display: grid;
+    width: 1200px;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    display: grid;
+    color: gray;
+    font-size: 11px;
+    height: 100px;
+}
+.esp{
+    display: grid;
+    width: 1200px;
+    justify-content: end;
+    margin-top: 30px;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
 
+}
+#españita{
+    width: 20px;
+}
+
+.cookies{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 350px 850px;
+    margin-top: 10px;
+    
+
+}
+.left-cookies{
+    display: grid;
+    grid-template-columns: auto auto auto;    
+}
+.right-cookies{
+    text-align: end;
+}
+.left-info-hover:hover{
+    color: rgb(90, 90, 90);
+}
